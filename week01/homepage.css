@@ -16,9 +16,11 @@ body{
     font-size: large;
 }
 
-nav{
+nav ul{
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    text-justify: center;
 }
 
 
