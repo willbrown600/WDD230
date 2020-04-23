@@ -1,8 +1,6 @@
 header{
     width:600;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    
     text-align: center;
     background-color: rgb(27, 156, 199);
     color: black;
