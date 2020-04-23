@@ -1,12 +1,14 @@
 header{
     display: grid;
     
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     text-align: center;
     text-justify: center;
     background-color: rgb(27, 156, 199);
     color: black;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -19,10 +21,12 @@ body{
 
 footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     text-align: center;
     text-justify: center;
     background-color: rgb(27, 156, 199);
     color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
