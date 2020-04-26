@@ -1,8 +1,9 @@
 header{
     
     border-radius: 10px;
-    
-    text-align: left;
+    max-width: 900px;
+    max-height: 150px;
+    text-align: center;
     background-color: rgb(27, 156, 199);
     color: black;
     margin-left: auto;
@@ -23,8 +24,7 @@ nav ul{
 }
 
 h1{
-    max-width: 900px;
-    max-height: 150px;
+    display: flexbox;
     font-size: larger;
     padding: auto, 20;
 }
