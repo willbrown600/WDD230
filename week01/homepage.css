@@ -1,8 +1,9 @@
 header{
     
     border-radius: 10px;
-    max-width: 900px;
-    max-height: 150px;
+    width: 900px;
+    height: 100px;
+    padding-top: 5px;
     
     background-color: rgb(27, 156, 199);
     color: black;
@@ -13,27 +14,26 @@ header{
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
 }
 
 nav ul{
     
-    margin-left: auto;
-    margin-right: auto;
+    display: grid;
+    margin-right: 500px;
     text-align: center;
 }
 
 h1{
-    display: flexbox;
+    
     height: 100px;
-    font-size: 60px;
-    padding: auto;
     text-align: center;
+    font-size: 60px;
+    margin-right: 500px;
 }
 
 p{
     text-align: center;
-    text-justify: center;
+    padding-top: 15px;
     margin-left: auto;
     margin-right: auto;
 }
