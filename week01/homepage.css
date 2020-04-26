@@ -1,7 +1,5 @@
 header{
-    display: flexbox;
-    max-width: 900px;
-    max-height: 150px;
+    
     border-radius: 10px;
     
     text-align: left;
@@ -25,7 +23,8 @@ nav ul{
 }
 
 h1{
-    display: grid;
+    max-width: 900px;
+    max-height: 150px;
     font-size: larger;
     padding: auto, 20;
 }
