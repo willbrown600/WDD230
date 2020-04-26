@@ -3,7 +3,7 @@ header{
     border-radius: 10px;
     max-width: 900px;
     max-height: 150px;
-    text-align: center;
+    
     background-color: rgb(27, 156, 199);
     color: black;
     margin-left: auto;
@@ -27,6 +27,7 @@ h1{
     display: flexbox;
     font-size: larger;
     padding: auto, 20;
+    text-align: center;
 }
 
 p{
