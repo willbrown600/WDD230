@@ -29,6 +29,7 @@ h1{
     height: 100px;
     text-align: center;
     font-size: 60px;
+    font-family: 'Amita', cursive;
     
 }
 
@@ -43,6 +44,7 @@ p{
     padding-top: 0px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Roboto Mono', monospace;
 }
 .info{
     margin-top: 0px;
