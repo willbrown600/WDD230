@@ -35,7 +35,8 @@ h1{
 
 h2{
    text-align: center;
-   margin-right: 500px; 
+   margin-right: 500px;
+   font-family: 'Roboto Mono', monospace; 
 }
 
 
@@ -44,7 +45,7 @@ p{
     padding-top: 0px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Roboto Mono', monospace;
+    
 }
 .info{
     margin-top: 0px;
