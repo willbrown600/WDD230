@@ -11,9 +11,9 @@ header{
 
 h1{
     
-    height: 100px;
+    height: 50px;
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
     font-family: 'Amita', cursive;
     
     
@@ -34,7 +34,7 @@ main{
 article{
     background-color: rgb(32, 32, 238);
     width: 100%
-    
+
 }
 
 .card1{
