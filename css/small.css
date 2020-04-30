@@ -1,15 +1,15 @@
 header{
     
     border-radius: 10px;
-    width: 900px auto;
-    height: 100px;
+    width: 60%;
+    height: 10%;
     padding-top: 5px;
     
     background-color: rgb(27, 156, 199);
     color: black;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 2%;
 
 }
 
@@ -21,7 +21,7 @@ body{
 nav ul{
     
     display: grid;
-    margin-right: 500px;
+    margin-left: 35%;
     text-align: center;
 }
 
@@ -31,15 +31,14 @@ h1{
     text-align: center;
     font-size: 60px;
     font-family: 'Amita', cursive;
-    margin-top: 15px;
+    margin-top: 2%;
     
 }
 
 h2{
    text-align: center;
-   margin-right: 500px;
    font-family: 'Roboto Mono', monospace;
-   margin-left: 160px; 
+   margin-left: 35%; 
 }
 
 
@@ -68,7 +67,7 @@ img{
 
 footer{
 
-    width: 900px auto;
+    width: 60%;
     height: 70px;
     padding-top: 5px;
     padding-bottom: 5px;
