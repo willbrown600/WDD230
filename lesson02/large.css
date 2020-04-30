@@ -76,7 +76,7 @@ p{
 .card1 img{
     
     width: 90%;
-    height: auto;
+    height: 100%;
     box-shadow: black;
     border-radius: 5px;
     padding: 20px;
@@ -86,7 +86,7 @@ p{
 .card2 img{
     
     width: 90%;
-    height: auto;
+    height: 100%;
     box-shadow: black;
     border-radius: 5px;
     padding: 20px;
@@ -96,7 +96,7 @@ p{
 .card3 img{
     
     width: 90%;
-    height: auto;
+    height: 100%;
     box-shadow: black;
     border-radius: 5px;
     padding: 20px;
