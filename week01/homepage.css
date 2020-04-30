@@ -58,6 +58,8 @@ img{
     height: auto;
     box-shadow: black;
     border-radius: 5px;
+    margin-top: 40px;
+    margin-right: 10px;
 
 }
 
@@ -65,7 +67,8 @@ footer{
 
     width: 900px;
     height: 70px;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 10px;
     text-align: center;
     background-color: rgb(27, 156, 199);
