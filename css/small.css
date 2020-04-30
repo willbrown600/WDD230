@@ -1,7 +1,7 @@
 header{
     
     border-radius: 10px;
-    width: auto;
+    width: 900 auto;
     height: 100px;
     padding-top: 5px;
     
@@ -68,7 +68,7 @@ img{
 
 footer{
 
-    width: auto;
+    width: 900 auto;
     height: 70px;
     padding-top: 5px;
     padding-bottom: 5px;
