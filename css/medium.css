@@ -2,17 +2,7 @@
 
     header{
     
-        border-radius: 10px;
-        width: auto;
-        height: 100px;
-        padding-top: 5px;
-        
-        background-color: rgb(27, 156, 199);
-        color: black;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-    
+        width: auto;    
     }
     
     body{
