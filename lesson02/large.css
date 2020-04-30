@@ -73,16 +73,36 @@ p{
     font-family: Helvetica, sans-serif;
       }
 
-img{
-    grid-column: 1/3;
-    grid-row: 1/5;
-    width: 100%;
+.card1 img{
+    
+    width: 90%;
     height: auto;
     box-shadow: black;
     border-radius: 5px;
     padding: 20px;
 
 }
+
+.card2 img{
+    
+    width: 90%;
+    height: auto;
+    box-shadow: black;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.card3 img{
+    
+    width: 90%;
+    height: auto;
+    box-shadow: black;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
 
 
 
