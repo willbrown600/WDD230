@@ -54,9 +54,10 @@ p{
 img{
     
     width: 200px;
-    margin-top: -100px;
-    margin-left: 700px;
-    margin-bottom: 300px;
+    float: right;
+    height: auto;
+    box-shadow: black;
+    border-radius: 5px;
 }
 
 footer{
