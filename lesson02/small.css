@@ -1,4 +1,5 @@
-@media only screen and (min-width: 32.5em){
+
+
 header{
     border-radius: 10px;
     width: 100%;
@@ -92,5 +93,4 @@ footer{
     color: black;
     margin: 0 auto;
     margin-top: 10px;
-}
 }
