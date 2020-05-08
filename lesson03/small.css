@@ -14,18 +14,25 @@ h1{
     font-size: 33px;
     line-height: 1em;
     font-family: 'Amita', cursive;
-    padding: 15px;
+    padding: 10px;
 }
 
 nav ul { 
-    display: block;
     list-style:none;
-    text-align-last: left;
-    margin: 0 auto;
     background-color: silver;
 }
 nav li {
-    flex: 1 1 100%; 
+    flex: 100%; 
+    
+}
+
+nav li:hover{
+    background-color: darkorchid;
+}
+
+nav a{
+    display: block;
+    width: auto;
 }
 
 h2{

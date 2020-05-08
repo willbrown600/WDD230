@@ -1,11 +1,8 @@
 @media only screen and (min-width: 32.5em){
 
     main{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 10px;
-        margin: 10px;    
+        
+           
     } 
 
     h1{
@@ -15,11 +12,22 @@
         line-height: 1.3em;
         font-family: 'Amita', cursive;   
     }
+    
+    nav{
+        text-align: center;
+    }
+    
     nav ul { 
         display: flex;
         width: auto;
+        height: 40px;
+        margin: 0 auto;
     }
     nav li { 
-        flex: 4 100%; 
+        text-align: center; 
+    }
+    nav li:hover{
+        background-color: darkorchid;
+        
     }
 }
