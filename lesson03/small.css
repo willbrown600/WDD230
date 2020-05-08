@@ -62,8 +62,7 @@ p{
     padding-right: 5px;
     color: black;  
 }
-
-img{
+.logo{
     display: flex;
     width: 200px;
     align-items: center;
