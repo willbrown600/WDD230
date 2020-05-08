@@ -64,8 +64,9 @@ p{
 }
 
 img{
-
-    width: 200px auto;
+    display: flex;
+    width: 200px;
+    align-items: center;
     margin: 0 auto;
 }
 
