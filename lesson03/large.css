@@ -1,7 +1,18 @@
 @media only screen and (min-width: 60em){
 
-    main{
+     
+    nav { 
         display: flex;
+        width: auto;
+        height: 40px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    nav li { 
+        text-align: center; 
+    }
+    nav li:hover{
+        background-color: darkorchid;
         
-    }   
+    }
 }
