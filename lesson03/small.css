@@ -1,8 +1,8 @@
 header{
-    border-radius: 10px;
+    
     width: 100%;
     height: 150px;
-    background-color: cornflowerblue;
+    background-color: rgb(20, 20, 240);
     color: white;
     margin: 0 auto;
     
@@ -14,13 +14,23 @@ h1{
     font-size: 33px;
     line-height: 1em;
     font-family: 'Amita', cursive;
-    padding: 5px;
+    padding: 17px;
 }
 
-nav {
-    width: auto;
-    background-color: cornflowerblue;
+nav ul {
+    display: block;
+    text-align: center;
+    list-style: none; 
+    margin:0 auto;
+    background-color: lightslategray;
+    color: white;
 }
+
+li a{
+    display:block;
+    color: aquamarine 
+}
+
 
 h2{
     text-align: center;
@@ -31,7 +41,7 @@ h2{
 h4{
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    color:white;
+    color: yellow;
     padding-top: 10px;
     
 }
@@ -43,7 +53,7 @@ body{
 
 article{
     margin-top: 10px;
-    background-color: cornflowerblue;
+    background-color: rgb(32, 32, 238);
     margin: 0 auto;
 }
 
@@ -62,11 +72,11 @@ p{
     padding-bottom: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    color: white;  
+    color: yellow;  
 }
 
 .info{
-    color:white;
+    color: yellow;
 }
 
 img{
@@ -85,7 +95,7 @@ footer{
     padding-bottom: 5px;
     border-radius: 10px;
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: rgb(32, 32, 238);
     margin: 0 auto;
     margin-top: 10px;
 }
