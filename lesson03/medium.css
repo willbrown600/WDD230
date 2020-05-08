@@ -15,4 +15,11 @@
         line-height: 1.3em;
         font-family: 'Amita', cursive;   
     }
+    nav ul { 
+        display: flex;
+        width: auto;
+    }
+    nav li { 
+        flex: 4 100%; 
+    }
 }
