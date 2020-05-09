@@ -8,11 +8,8 @@
         margin: 0 auto;
         text-align: center;
     }
-    nav li { 
-        text-align: center; 
-    }
-    nav li:hover{
-        background-color: darkorchid;
+    .color{
+        width: 60%;
         
     }
 }

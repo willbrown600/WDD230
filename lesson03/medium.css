@@ -28,4 +28,8 @@
     h4{
         font-size: 20px;
     }
+    .color{
+        width: 80%;
+        margin: 0 auto;
+    }
 }
