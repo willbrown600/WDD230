@@ -91,12 +91,20 @@ p{
     margin: 0 auto;
 }
 
-img{
+.logo img{
     width: 200px;
 }
 
-.persona1 img{
+.color img{
+    width: 100%;
+    height: 300px;
+}
+
+
+.personas, img {
+    text-align: center;
     margin: 0 left;
+    width: 200px;
 
 }
 
