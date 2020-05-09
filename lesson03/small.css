@@ -93,15 +93,15 @@ img{
 }
 
 footer{
-    display: block;
+    display: flex;
     padding-top: 5px;
     padding-bottom: 5px;
-    text-align: center;
     background-color:cornflowerblue;
-    margin: 0 auto;
     margin-top: 10px;
     font-size: 1.2em;
 }
-.info{
+.info p{
+    display: flex;
     text-align: center;
+
 }
