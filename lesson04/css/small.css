@@ -62,6 +62,10 @@ nav ul li.hide {
     display: none;
 }
 
+footer{
+    
+}
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
