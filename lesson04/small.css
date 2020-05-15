@@ -42,7 +42,12 @@ nav ul li.active a{
     color: #fff;
 }
 
-
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 
