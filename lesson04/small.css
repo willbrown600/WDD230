@@ -22,8 +22,15 @@ nav button {
 }
 
 nav {
-    background-color:#ff0000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff0000+0,8e2d00+100 */
+    background: #ff0000; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff0000 0%, #8e2d00 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ff0000 0%,#8e2d00 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ff0000 0%,#8e2d00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#8e2d00',GradientType=0 ); /* IE6-9 */
+
+    
 
 }
 
