@@ -63,7 +63,12 @@ nav ul li.hide {
 }
 
 footer{
-    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:cornflowerblue;
+    margin-top: 10px;
+    font-size: 1.2em;
+
 }
 
 
