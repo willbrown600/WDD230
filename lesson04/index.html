@@ -1,62 +1,41 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="description" content="Fill Me In">
-<meta name="author" content="Will Brown">
-
-<!-- This start file was build by Paul Cheney  -->
-<title>HTML5 Start Site by Paul Cheney</title>
-
-<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
-
-
-<!-- STYLE SHEETS -->
-<link href="/lesson04/normalize.css" rel="stylesheet">
-<!-- phone-default -->
-<link href="/lesson04/small.css" rel="stylesheet">
-<!-- enhance-tablet -->
-<link href="/lesson04/medium.css" rel="stylesheet">
-<!-- enhance-desktop -->
-<link href="/lesson04/large.css" rel="stylesheet">
-
-
-     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Preston webpage</title>
+    <link href="/lesson04/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Chettan+2:wght@500&display=swap" rel="stylesheet">
+    <link href="/lesson04/small.css" rel="stylesheet">
+    <link href="/lesson04/medium.css" rel="stylesheet">
+    <link href="/lesson04/large.css" rel="stylesheet">     
 </head>
 <body>
-<!-- HEADER HERE -->
 	<header>
- <h1>Good Weather</h1>
-        <h2>We only have the best weather for you</h2>
+        <img src="/images/weather_icon.png" alt="weather_icon">
+        <h1>Good Weather</h1>
+            <h2>We only have the best weather for you</h2>
     </header>
-    
-    
-<!-- NAVIGATION HERE -->
-    <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Products</a></li>
-            <li><a href="#">Location</a></li>
-            <li><a href="#">Contact</a></li>    
-        </ul>
-    </nav>
-    
-    
-<!-- CONTENT HERE -->
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Products</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Contact</a></li>    
+            </ul>
+        </nav>
     <main>
         <h1>Products</h1>
-        <p>The page name shoud almost exactly match the menu item. </p>
-    </main>
-    
-<!-- FOOTER HERE -->   
+            <p>The page name shoud almost exactly match the menu item. </p>
+    </main> 
     <footer>
-        <p>&copy; 201x &bull; Paul Cheney &bull; 123-555-6789</p>
+        <div class="info">
+          <p>&copy; 2020 | Will Brown | Brisbane, Australia |
+          <a href="https://my.byui.edu/ics" target="blank">BYUI Online Learning</a></p>  
+          <p>Last modified on the 04/26/2020 @ 3:44pm</p>
+      </div>  
     </footer>
-    
-<script src="js/scripts.js"></script>
+    <script src="/lesson04/lesson04.js"></script>
 </body>
 </html>
