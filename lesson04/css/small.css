@@ -1,16 +1,28 @@
 
 header{
     display: flex;
+    padding: 5px 0;
+	align-items:center;
+	justify-content:center;
     
 }
 
-#message{
-    border:none;
-    align-self: center;
+h1{
+    position: relative;
+    font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+h4 #message{
+    font-style: italic;
+	letter-spacing: 1pt;
+	color: forestgreen;
+	margin-left: 20px;
+	font-size: .9rem;
 }
 
 img {
-    width: 20px auto;
+    width: 100px;
     height: auto;
 }
 
