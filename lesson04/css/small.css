@@ -63,15 +63,19 @@ nav ul li.hide {
     text-align: center;
 }
 
-
-
+.info a{
+    color: lightblue;
+}
 footer{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color:cornflowerblue;
-    margin-top: 10px;
-    font-size: 1.2em;
-
+    
+    padding: 5px 10px;
+    background: #cecece; /* Old browsers */
+    background: -moz-linear-gradient(top, #cecece 0%, #444444 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #cecece 0%,#444444 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #cecece 0%,#444444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cecece', endColorstr='#444444',GradientType=0 ); /* IE6-9 */
+    font-size: 1.0em;
+    color: whitesmoke;
 }
 
 
@@ -81,6 +85,7 @@ footer{
     display: table;
     clear: both;
   }
+
 
 
 
