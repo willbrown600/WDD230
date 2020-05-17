@@ -20,7 +20,7 @@
         </section>
     </header>
         <nav class="clearfix">
-            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
                 <li><a href="#">Home</a></li>
                 <li class="active"><a href="#">Products</a></li>
@@ -43,6 +43,7 @@
           <p>&copy; 2020 | Will Brown | Brisbane, Australia |
           <a href="https://my.byui.edu/ics" target="blank">BYUI Online Learning</a></p>  
           <p class="date">Today's date: </p>
+          <script>new Date().getFullYear()>document.write(+new Date().getFullYear());</script>
       </div>  
     </footer>
     <script src="/lesson04/js/lesson04.js">toggleMenu()</script>
