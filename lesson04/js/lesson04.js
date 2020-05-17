@@ -1,8 +1,12 @@
-const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+function date(){
 
-document.getElementById('date').textContent = new Date().toLocaleDateString('en-US, options');
+    const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
 
-const todaysdate = new Date();
+    document.getElementById('date').textContent = new Date().toLocaleDateString('en-US, options');
+
+    const todaysdate = new Date();
+
+}
 
 
 function toggleMenu(){ 
