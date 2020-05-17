@@ -23,7 +23,7 @@
             float: left;
         }
     
-        nav ul li.hide {
+        nav ul.hide {
             display: block;
         }
     
