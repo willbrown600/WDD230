@@ -1,0 +1,135 @@
+.gr__willbrown600_github_io{
+    background-color:  aliceblue;
+}
+
+header{
+    display: flex;
+    padding: 5px 0;
+	align-items:center;
+	justify-content:center;
+    
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+h4#message{
+    font-style: italic;
+	letter-spacing: 1pt;
+	color: red;
+	margin: 0 0 0 17px;
+	font-size: .9rem;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    margin: 8px;
+}
+
+.pageinfo{
+    font-family: 'Playfair Display', serif;
+    background-color: transparent;
+    border: none;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+nav {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cecece+0,444444+100 */
+background: #cecece; /* Old browsers */
+background: -moz-linear-gradient(top, #cecece 0%, #444444 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #cecece 0%,#444444 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #cecece 0%,#444444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cecece', endColorstr='#444444',GradientType=0 ); /* IE6-9 */
+}
+
+nav ul {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 4%;
+    text-decoration: none;
+    color: whitesmoke;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul li.active a{
+    background-color: rgba(0, 0, 0, 0.2); 
+    color: #fff;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+.topics, h2{
+    
+    font-size: 1.3rem;
+    border: 1px solid black;
+    padding: 10px;
+    max-width: 760px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.info a{
+    color: lightblue;
+}
+footer{
+    
+    padding: 5px 10px;
+    background: #cecece; /* Old browsers */
+    background: -moz-linear-gradient(top, #cecece 0%, #444444 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #cecece 0%,#444444 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #cecece 0%,#444444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cecece', endColorstr='#444444',GradientType=0 ); /* IE6-9 */
+    font-size: 1.0em;
+    color: whitesmoke;
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

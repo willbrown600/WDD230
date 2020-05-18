@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Good Weather Website</title>
+    <link rel="shortcut icon" href="/lesson04/images/favicon.ico">
+    <link href="/lesson05/css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Playfair+Display&display=swap" rel="stylesheet">    <link href="/lesson04/css/small.css" rel="stylesheet">
+    <link href="/lesson05/css/medium.css" rel="stylesheet">
+    <link href="/lesson05/css/large.css" rel="stylesheet">     
+</head>
+<body>
+	<header>
+        <picture>
+            <img src="/lesson05/images/weather_icon.png" alt="weather_icon">
+        </picture>
+        <section class="heading">
+            <h1>Good Weather</h1>
+                <h4 id="message">We only have the best weather for you</h4>
+        </section>
+    </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>   
+            </ul>
+        </nav>
+    <main>
+        <h2 class="pageinfo">Preston Idaho</h2>
+        <div class="topics">
+        <h2>Hero w/ weather summary</h2>
+        <h2>5 day Forecast</h2>
+        <h2>Article</h2>
+        <h2>Contact Information</h2>
+        </div>
+
+    </main> 
+    <footer>
+        <div class="info">
+          <p>&copy; 2020 | Will Brown | Brisbane, Australia |
+          <a href="https://my.byui.edu/ics" target="blank">BYUI Online Learning</a></p>  
+          <p>
+              Today's date: 
+              <script>
+                const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+                document.getElementsByClassName('info').textContent = new Date().toLocaleDateString('en-US, options');
+                const todaysdate = new Date();
+              </script>
+          </p>
+      </div>  
+    </footer>
+    <script src="/lesson05/js/lesson05.js"></script>
+</body>
+</html>
