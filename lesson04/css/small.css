@@ -82,10 +82,9 @@ nav ul.hide {
     display: none;
 }
 
-.topics, h2{
+.topics{
     
-    font-size: 1.3rem;
-    border: 1px solid black;
+    
     padding: 10px;
     max-width: 760px;
     margin: 0 auto;
@@ -93,6 +92,12 @@ nav ul.hide {
     text-align: center;
     background-color: lightgray;
     margin-bottom: 10px;
+}
+
+.topics h2{
+    border: 1pt solid black;
+    font-size: 1.3rem;
+    font-family: 'Playfair Display', serif;
 }
 
 .info a{
