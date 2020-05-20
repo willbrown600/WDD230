@@ -4,29 +4,43 @@
     }
     nav button{
             display: none;
-        }
+    }
     
-        nav ul {
-            margin-left: 2%;
-        }
+    nav ul {
+        margin-left: 2%;
+    }
     
-        nav ul li {
+    nav ul li {
     
-            float: left;
-        }
+        float: left;
+    }
     
-        nav ul.hide {
-            display: block;
-        }
+    nav ul.hide {
+        display: block;
+    }
     
-        nav ul li a {
-            border: none;
-            border-right: 1px solid rgba(0,0,0,0.3);
-            padding: .6rem 1rem;
-        }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .6rem 1rem;
+    }
+    
+    .pageinfo{
+        height: 30px;
+    }
+    
+    .topics{
+        margin: 0 auto;
+    }
+    
+    .weather{
+        display: float;
+        float: left;
+        margin-left: 30px;
+    }
         
-        footer{
-            text-align: center;
-        }
+    footer{
+        text-align: center;
+    }
     
 }  
