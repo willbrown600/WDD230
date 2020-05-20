@@ -39,19 +39,22 @@ header img {
 
 nav button {
     margin: .2rem 2%;
+    padding: 10px;
     background-color: transparent;
     border: none;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 nav {
+    text-align: center;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cecece+0,444444+100 */
-background: #cecece; /* Old browsers */
-background: -moz-linear-gradient(top, #cecece 0%, #444444 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #cecece 0%,#444444 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #cecece 0%,#444444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cecece', endColorstr='#444444',GradientType=0 ); /* IE6-9 */
+    background: #cecece; /* Old browsers */
+    background: -moz-linear-gradient(top, #cecece 0%, #444444 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #cecece 0%,#444444 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #cecece 0%,#444444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cecece', endColorstr='#444444',GradientType=0 ); /* IE6-9 */
 }
 
 nav ul {
@@ -87,6 +90,7 @@ nav ul.hide {
 }
 
 .topics{
+    
     
     padding: 10px;
     max-width: 760px;
@@ -138,8 +142,7 @@ footer{
 .clearfix:after {
     content: "";
     display: table;
-    clear: both;
-    font-family: 'Playfair Display', serif;
+    clear: both;  
   }
 
 
