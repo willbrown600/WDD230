@@ -101,13 +101,13 @@ nav ul.hide {
 }
 
 .weather{
-    display:grid;
+    display: grid;
     grid-template-columns: 2;
     grid-template-rows: 2;
     border: 1px solid black;
     box-shadow: 30px;
-    position: relative;
-    
+    position: relative; 
+    text-align: center;
 }
 .details{
     grid-row: 2;
@@ -121,13 +121,12 @@ nav ul.hide {
     text-align: left;
 }
 
-.preston_image{
-    max-width: 760px;
-    align-items: center;
+img{
+    width: 100%;
     height: auto;
+    align-items: center;
     margin: 0 auto;
-    margin-bottom: 10px;
-}
+    
 
 .topics h2{
     border: 1pt solid black;
