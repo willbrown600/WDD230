@@ -1,10 +1,10 @@
 .gr__willbrown600_github_io{
-    background-color: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aa9a94+0,f4d4c3+100 */
-background: #aa9a94; /* Old browsers */
-background: -moz-linear-gradient(top,  #aa9a94 0%, #f4d4c3 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #aa9a94 0%,#f4d4c3 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #aa9a94 0%,#f4d4c3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa9a94', endColorstr='#f4d4c3',GradientType=0 ); /* IE6-9 */
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aa9a94+0,f4d4c3+100 */
+    background: #aa9a94; /* Old browsers */
+    background: -moz-linear-gradient(top,  #aa9a94 0%, #f4d4c3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #aa9a94 0%,#f4d4c3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #aa9a94 0%,#f4d4c3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa9a94', endColorstr='#f4d4c3',GradientType=0 ); /* IE6-9 */
 
 
 }
@@ -29,13 +29,15 @@ h4#message{
 	letter-spacing: 1pt;
 	color: red;
 	margin: 0 0 0 17px;
-	font-size: .9rem;
+    font-size: .9rem;
+    
 }
 
 header img {
     width: 100px;
     height: auto;
     margin: 8px;
+    box-shadow: none;
 }
 
 .pageinfo{
@@ -151,15 +153,16 @@ img{
     height: 300px;
     align-items: center;
     margin: 0 auto;
+    box-shadow: 0 0 10px grey;
 }
 
 .Forecast h2{
-    display: flex;
+    display: none;
 }
 
 .Forecast p{
 
-    display: flex;
+    display: none;
     flex: stretch;
     border: 1px solid black;
     box-shadow: black 20px;
