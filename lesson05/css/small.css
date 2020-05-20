@@ -126,12 +126,21 @@ img{
     height: auto;
     align-items: center;
     margin: 0 auto;
-}    
+}
+
 
 .topics h2{
     border: 1pt solid black;
     font-size: 1.3rem;
     font-family: 'Playfair Display', serif;
+}
+
+.Forecast{
+
+    display: flex;
+    border: 1px solid black;
+    box-shadow: black 20px;
+    border-right: 1px solid black;
 }
 
 .info a{
