@@ -11,7 +11,6 @@
         }
     
         nav ul li {
-    
             float: left;
         }
     
@@ -31,6 +30,11 @@
     
     .topics{
         margin: 0 auto;
+        margin-top: -200px
+        
+    }
+    .topics h2{
+        border: none;
     }
     
     .weather{
@@ -72,10 +76,56 @@
     background-color: lightgrey;
     box-shadow: 0 0 3px white;
     }
-
+    
+    .ArticleInfo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 500px;
+        padding: 5px;
+    }
+    
+    .ArticleInfo p{
+        grid-column: 1;
+        line-height: 1.3rem;
+        padding: 10px;
+    }
+    
+    .ArticleInfo h2{
+        grid-column: 1;
+        line-height: 1.4rem;
+        margin-top: 30px;
+    }
+    .ArticleInfo h4{
+        grid-column: 1;
+    }
+    
+    .ArticleInfo img{
+        float: right;
+        position: relative;
+        margin: 0 auto;
+        padding: 5px;
+        box-shadow: 0 0 5px grey;
+    } 
+    
+    .ContactInfo{
+        display: grid;
+        margin-top: 30px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .ContactInfo p, h2{
+        grid-column: 2;
         
-        footer{
-            text-align: center;
-        }
+    }
+    .ContactInfo img{
+        display: float;
+        float: left;
+        position: relative;
+        bottom: 270px;
+    }
+    
+    footer{
+        text-align: center;
+    }
     
 }  
