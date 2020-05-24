@@ -3,7 +3,8 @@
         
        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cecece+0,444444+100 */
         background: #cecece; /* Old browsers */
-        
+        background: linear-gradient(to bottom, #cecece 0%,#444444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
     }
     
     nav button{
