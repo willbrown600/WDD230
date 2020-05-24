@@ -4,11 +4,6 @@ function toggleMenu(){
 
 }
 
-/*function onDocumentLoad(){
-    date();
-}*/
-
-
 function date(){
 
     const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
@@ -29,11 +24,9 @@ document.getElementById("date").innerHTML = "Last Updated: " + document.lastModi
 
 }
 
-const date = new Date();
-const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const dayName = days[date.getDay()];
 
-const months = 
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+const dayName = days[d.getDay()];
 
 if(dayName == 'Friday') {
    document.getElementById("alert").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";

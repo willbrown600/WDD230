@@ -1,10 +1,8 @@
 .gr__willbrown600_github_io{
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aa9a94+0,f4d4c3+100 */
    background: #aa9a94; /* Old browsers */
-   background: -moz-linear-gradient(top,  #aa9a94 0%, #f4d4c3 100%); /* FF3.6-15 */
-   background: -webkit-linear-gradient(top,  #aa9a94 0%,#f4d4c3 100%); /* Chrome10-25,Safari5.1-6 */
    background: linear-gradient(to bottom,  #aa9a94 0%,#f4d4c3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa9a94', endColorstr='#f4d4c3',GradientType=0 ); /* IE6-9 */
+   
 
 
 }
@@ -57,13 +55,10 @@ nav button {
 }
 
 nav {
-   /*! text-align: center; */
-   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cecece+0,444444+100 */
+   
    background: #cecece; /* Old browsers */
-   background: -moz-linear-gradient(top, #cecece 0%, #444444 100%); /* FF3.6-15 */
-   background: -webkit-linear-gradient(top, #cecece 0%,#444444 100%); /* Chrome10-25,Safari5.1-6 */
    background: linear-gradient(to bottom, #cecece 0%,#444444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cecece', endColorstr='#444444',GradientType=0 ); /* IE6-9 */
+   
 }
 
 nav ul {
@@ -178,10 +173,7 @@ footer{
    
    padding: 5px 10px;
    background: #cecece; /* Old browsers */
-   background: -moz-linear-gradient(top, #cecece 0%, #444444 100%); /* FF3.6-15 */
-   background: -webkit-linear-gradient(top, #cecece 0%,#444444 100%); /* Chrome10-25,Safari5.1-6 */
    background: linear-gradient(to bottom, #cecece 0%,#444444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cecece', endColorstr='#444444',GradientType=0 ); /* IE6-9 */
    font-size: 1.0em;
    color: whitesmoke;
 }
