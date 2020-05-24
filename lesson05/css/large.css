@@ -17,9 +17,9 @@
         margin-left: 2%;
     }
     .weather{
-        display: float;
-        float: left;
-        margin-left: 30px;
+        display: grid;
+        postion: relative;
+        
     }
 
     nav ul li {
@@ -34,8 +34,43 @@
     nav ul li a {
         border: none;
         border-right: 1px solid rgba(0,0,0,0.3);
-        padding: .6rem 1rem;
+        padding: .8rem 1rem;
     }
+    
+    .Forecast{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        width: 100%;
+        margin: 0 auto;
+        height: 250px;
+        text-align: center;
+    }
+    
+    .Forecast h2{
+        display: grid;
+        grid-column: 1/8;
+        grid-row: 1;
+        padding: 10px;
+        
+    }
+
+.Forecast p{
+
+    display: grid;
+    grid-column: 1/;
+    grid-row: 2;
+    width: 80px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+    font-size: 1.3rem;
+    background-color: lightgrey;
+    box-shadow: 0 0 3px white;
+    }
+    
     
     footer{
         text-align: center;
