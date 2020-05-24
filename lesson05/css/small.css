@@ -167,9 +167,7 @@ img{
 .Forecast p{
 
    display: none;
-   flex: stretch;
    border: 1px solid black;
-   box-shadow: black 20px;
    border-right: 1px solid black;
 }
 

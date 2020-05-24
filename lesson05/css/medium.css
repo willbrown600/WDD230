@@ -1,6 +1,7 @@
 @media only screen and (min-width: 32.5em){
     nav ul li.hide{
         display: block;
+       
     }
     nav button{
             display: none;
@@ -8,6 +9,7 @@
     
         nav ul {
             margin-left: 2%;
+          
         }
     
         nav ul li {
@@ -124,7 +126,7 @@
         
     }
     .ContactInfo img{
-        display: float;
+        
         float: left;
         position: relative;
         bottom: 270px;
