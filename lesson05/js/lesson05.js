@@ -5,22 +5,10 @@ function toggleMenu(){
 }
 
 function date(){
-
-    const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-    document.getElementsById('date').innerHTML = new Date().toLocaleDateString('en-US, options');
     const todaysdate = new Date();
-
-    document.getElementById("date").innerHTML = "test";
-
-}
-
-
-var d = new Date();
-var n = d.getFullYear();
-
-function Index(){
-document.getElementById("copy").innerHTML = n;
-document.getElementById("date").innerHTML = "Last Updated: " + document.lastModified;
+    const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+    document.getElementsById('modified').innerHTML = new Date().toLocaleDateString('en-US, options');
+    
 
 }
 
