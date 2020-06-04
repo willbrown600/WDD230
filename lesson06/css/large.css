@@ -12,11 +12,11 @@
     }
 
     nav ul {
-        margin-left: 2%;
+        text-align: center;
     }
     .weather{
-        display: grid;
-        position: relative;
+        margin-left: 2%;
+        float: left;
         
     }
 
