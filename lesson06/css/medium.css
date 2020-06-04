@@ -63,10 +63,10 @@
         
     }
 
-.Forecast p{
+    .Forecast p{
 
     display: grid;
-    grid-column: 1/;
+    grid-column: 1/8;
     grid-row: 2;
     width: 100%;
     height: 150px;
