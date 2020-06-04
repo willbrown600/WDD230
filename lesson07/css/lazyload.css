@@ -12,13 +12,17 @@ picture img[data-src] {
     height: 400px;
 
 }
+
+picture img{
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
   
-picture {
+picture{
     width: 300px;
     height: 400px;
     border: 1px solid black;
-    filter: blur(0em);
-    transition: filter 0.5s;
+    box-shadow: 5px;
 }
 
 h1{
