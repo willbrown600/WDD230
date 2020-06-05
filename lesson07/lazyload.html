@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/lesson07/css/lazyload.css">
     <link rel="stylesheet" href="/lesson07/css/lazyload.css" media="lazyload">
     <title>Progressive Loading Images</title>
   </head>
@@ -11,49 +10,53 @@
     <h1>Progressive Loading Images</h1>
   </header>
   <body>
+    <main>
     
     <picture>
       <img
-        src="data/img/placeholder.png"
+        src="https://via.placeholder.com/300/400/FF0000/FFFFFF"
         data-src="/lesson07/images/lazyload/deer.jpg"
         alt="deer.jpg"
       />
     </picture>
     <picture>
       <img
-        src="data/img/placeholder.png"
+        src="/lesson07/images/lazyload/placeholder.jpg"
         data-src="/lesson07/images/lazyload/parrot.jpg"
         alt="parrot.jpg"
       />
     </picture>
     <picture>
       <img
-        src="data/img/placeholder.png"
+        src="/lesson07/images/lazyload/placeholder.jpg"
         data-src="/lesson07/images/lazyload/tiger.jpg"
         alt="tiger.jpg"
       />
     </picture>
     <picture>
       <img
-        src="data/img/placeholder.png"
+        src="/lesson07/images/lazyload/placeholder.jpg"
         data-src="/lesson07/images/lazyload/jellyfish.jpg"
         alt="jellyfish.jpg"
       />
     </picture>
     <picture>
       <img
-        src="data/img/placeholder.png"
+        src="/lesson07/images/lazyload/placeholder.jpg"
         data-src="/lesson07/images/lazyload/deer2.jpg"
         alt="deer2.jpg"
       />
     </picture>
     <picture>
-      <img src="data/img/placeholder.png" 
+      <img src="/lesson07/images/lazyload/placeholder.jpg" 
       data-src="/lesson07/images/lazyload/fox2.jpg" 
       alt="fox.jpg" />
     </picture>
 
+   </main>
+   
+    <script src="lazyload.js"></script>
     <script src="lazyload.js" defer></script>
-    <script src="/lesson07/js/lazyload.js"></script>
+    
   </body>
 </html>
