@@ -1,6 +1,6 @@
 body {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    margin-block-end: center;
     align-items: center;
     
 }
