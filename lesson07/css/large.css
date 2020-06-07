@@ -80,5 +80,15 @@
         grid-template-columns: 1fr 1fr 1fr;
         margin: 0 auto;
     }
+    .Gallery figure:hover{
+        box-shadow: 0px 0px 30px brown;
+    }
+
+    figcaption{
+        display: block;
+        text-align: center;
+        padding: 10px;
+        font-size: 1.4rem;
+    }
 
 }

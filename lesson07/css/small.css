@@ -198,6 +198,7 @@ footer{
 
    max-width: 100%;
    filter: blur(.2em);
+
  }
 
  .Gallery img{
@@ -215,6 +216,14 @@ footer{
     font-size: 4rem;
     margin: 0 auto;
     padding: 20px;
+ }
+
+ figure{
+    box-shadow: 10px black;
+ }
+
+ figcaption{
+    display: none;
  }
 
 
