@@ -186,6 +186,37 @@ footer{
    clear: both;  
  }
 
+ .Gallery{
+
+   display: grid;
+   grid-template-columns: 1fr;
+   margin: 0 auto;
+
+ }
+
+ .Gallery img[data-src]{
+
+   max-width: 100%;
+   filter: blur(.2em);
+ }
+
+ .Gallery img{
+
+   filter: blur(0em);
+   transition: filter 2s;
+ }
+
+ .Gallery img[data-src]:hover{
+    background-color: 30px red;
+ }
+
+ .GalleryHeader{
+    text-align: center;
+    font-size: 4rem;
+    margin: 0 auto;
+    padding: 20px;
+ }
+
 
 
 

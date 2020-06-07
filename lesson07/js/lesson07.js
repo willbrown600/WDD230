@@ -14,7 +14,7 @@ function date(){
 
 
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const dayName = days[d.getDay()];
+const dayName = days[document.getDay()];
 
 if(dayName == 'Friday') {
    document.getElementById("alert").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
