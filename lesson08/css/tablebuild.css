@@ -1,10 +1,10 @@
 body{
-    margin: 10 auto;
+    align-items: center;
 }
 
 table{
     font-family: Ubuntu, sans-serif;
-    box-shadow: 0 0 30px #628ca6;
+    box-shadow: 10px 10px 10px #628ca6;
 }
 
 th{
@@ -16,7 +16,7 @@ th{
 
 
 table, td {
-    border: 1px solid grey;
+    border: 2px solid grey;
     border-collapse: collapse;
     padding: 10px;
     text-align: center;
