@@ -44,7 +44,7 @@ table tr td#special{
     background-color: #628ca6;
     color: white;
 }
-table tfoot{
+table tfoot td{
     background-color: #7fb9c2;
     font-size: .8rem;
 }
