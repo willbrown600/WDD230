@@ -294,3 +294,37 @@ footer {
   padding: 0.5rem 2%;
   text-align: center;
 }
+/*-----------Homepage--------------*/
+.cards{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 3px;
+  padding: 15px;
+ 
+}
+
+.cards section{
+  background-color: #b9b9ca;
+  border: #9797b7 solid 2px;
+}
+.cards img{
+  display: block;
+  width: 250px;
+  height: 200px;
+  margin: auto auto 25px auto;
+  box-shadow: rgb(49, 49, 49) 0 0 15px;
+}
+.cards h2, h4{
+  text-align: center;
+  color: #4e4e91;
+  line-height: .75em;
+  font-family: Bree Serif, serif;
+  font-weight: lighter;
+  padding: 10px;
+}
+.cards p{
+  text-align: center;
+  line-height: .3em;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
