@@ -16,30 +16,32 @@ fetch(requestURL)
 
             let card = document.createElement('section');
             let name = document.createElement('h2');
-            let motto = document.createElement('p');
+            let motto = document.createElement('h4');
             let photo = document.createElement('img');
-            let yearFounded = document.createElement('p');
-            let currentPopulation = document.createElement('p');
-            let averageRainfall = document.createElement('p');
+            let founded = document.createElement('p');
+            let population = document.createElement('p');
+            let rainfall = document.createElement('p');
             
 
       //Add the text and images to the cards.
             name.textContent = towns[i].name;
             motto.textContent = towns[i].motto;
-            yearFounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
-            currentPopulation.textContent = 'Population: ' + towns[i].currentPopulation;
-            averageRainfall.textContent = 'Annual Average Rainfall: ' + towns[i].averageRainfall;
             photo.setAttribute('src','./images/' + towns[i].photo);
             photo.setAttribute('alt', towns[i].name );
+            founded.textContent = 'Year Founded: ' + towns[i].yearFounded;
+            population.textContent = 'Population: ' + towns[i].currentPopulation;
+            rainfall.textContent = 'Annual Average Rainfall: ' + towns[i].averageRainfall;
+            
       //title.textContent = prophets[i].name + ' ' + prophets[i].lastname;
 
       //add elements to arrayList
             card.appendChild(name);
             card.appendChild(motto);
-            card.appendChild(yearFounded);
-            card.appendChild(currentPopulation);
-            card.appendChild(averageRainfall);
             card.appendChild(photo);
+            card.appendChild(founded);
+            card.appendChild(population);
+            card.appendChild(rainfall);
+            
       //card.appendChild();
 
             document.querySelector('div.cards').appendChild(card);
