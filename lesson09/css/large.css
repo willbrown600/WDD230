@@ -96,28 +96,41 @@
     .cards{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-
+        grid-template-rows: 1fr;
+        max-height: 750px;
+        
     }
-    .cards img{
-        display: block;
-        max-width: 350px;
-        max-height: 250px;
-        margin: auto auto 25px auto;
-        box-shadow: rgb(49, 49, 49) 0 0 15px;
-      }
-      .cards h2, h4{
-        text-align: center;
-        color: #4e4e91;
-        line-height: .75em;
-        font-family: Bree Serif, serif;
-        font-weight: lighter;
-        padding: 10px;
-      }
-      .cards p{
-        text-align: center;
-        line-height: .3em;
-        font-family: Helvetica, sans-serif;
-        font-size: 14px;
-      }
+    .cards section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+    }
 
+    .cards section:nth-child(even) img {
+        grid-column: 1;
+        grid-row: 1;
+        max-width: 350px;
+    }
+
+    .cards section:nth-child(even) h2,h4,p {
+        grid-column: 1;
+        grid-row: 2;
+        display: flexbox;
+        flex-direction: column;
+        
+        
+    }
+    
+    .cards section:nth-child(odd) img {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .cards section:nth-child(odd) h2,h4,p {
+        grid-column: 1;
+        grid-row: 2;
+        line-height: .75rem;
+       
+    }
 }
