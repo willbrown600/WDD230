@@ -298,14 +298,13 @@ footer {
 .cards{
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 3px;
+  grid-gap: 10px;
   padding: 15px;
- 
 }
-
 .cards section{
   background-color: #b9b9ca;
   border: #9797b7 solid 2px;
+  border-radius: 10px;
 }
 .cards img{
   display: block;
@@ -317,8 +316,8 @@ footer {
 .cards h2, h4{
   text-align: center;
   color: #4e4e91;
-  line-height: .75em;
-  font-family: Bree Serif, serif;
+  line-height: .95em;
+  font-family: Heebo, Serif, serif;
   font-weight: lighter;
   padding: 10px;
 }
