@@ -21,6 +21,7 @@ fetch(requestURL)
             let founded = document.createElement('p');
             let population = document.createElement('p');
             let rainfall = document.createElement('p');
+            let div = document.createElement('div');
             
 
       //Add the text and images to the cards.
@@ -35,12 +36,13 @@ fetch(requestURL)
       //title.textContent = prophets[i].name + ' ' + prophets[i].lastname;
 
       //add elements to arrayList
-            card.appendChild(name);
-            card.appendChild(motto);
+            div.appendChild(name);
+            div.appendChild(motto);
             card.appendChild(photo);
-            card.appendChild(founded);
-            card.appendChild(population);
-            card.appendChild(rainfall);
+            div.appendChild(founded);
+            div.appendChild(population);
+            div.appendChild(rainfall);
+            card.appendChild(div);
             
       //card.appendChild();
 
