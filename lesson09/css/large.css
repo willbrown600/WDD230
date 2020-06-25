@@ -122,8 +122,21 @@
     .cards section div{
         display: block;
         margin-bottom: 50px;
+        text-align: center;
+        justify-content: center;
     }
     
+    .cards section:nth-child(odd) img{
+        display: block;
+        block-size: 200px;
+        margin: 0px; 
+
+
+    }
+    .cards section:nth-child(even) img{
+        display: block;
+        margin: 0px;
+    }
     
     
 }
