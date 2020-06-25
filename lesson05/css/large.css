@@ -30,8 +30,8 @@
     }
 
     nav ul li a {
+        flex-direction: row;
         border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
         padding: .8rem 1rem;
     }
     
