@@ -70,11 +70,10 @@ nav ul {
 
 nav ul li a {
   display: flex;
-  padding: 0.8rem 4%;
   text-decoration: none;
   color: whitesmoke;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
-  /*! flex: 1 1 100%; */
+  padding: 10px;
 }
 
 nav ul li a:hover {
@@ -84,6 +83,7 @@ nav ul li a:hover {
 nav ul li.active a {
   background-color: rgba(0, 0, 0, 0.2);
   color: #fff;
+  width: 100%;
 }
 
 nav ul.hide {
@@ -312,7 +312,7 @@ footer {
   display: block;
   width: 250px;
   height: 200px;
-  margin: auto auto 25px auto;
+  margin: 25px auto 25px auto;
   box-shadow: rgb(49, 49, 49) 0 0 15px;
 }
 .cards h2, h4{

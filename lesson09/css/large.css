@@ -1,11 +1,9 @@
 @media only screen and (min-width: 60rem) {
 
     nav{
-        
        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cecece+0,444444+100 */
         background: #cecece; /* Old browsers */
         background: linear-gradient(to bottom, #cecece 0%,#444444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
     }
     
     nav button{
@@ -18,21 +16,18 @@
     .weather{
         margin-left: 2%;
         float: left;
-        
     }
 
     nav ul li {
-
         float: left;
     }
 
     nav ul.hide {
-        display: block;
+        display: flex;
     }
 
     nav ul li a {
         border: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
         padding: .8rem 1rem;
     }
     
