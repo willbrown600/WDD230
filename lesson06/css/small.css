@@ -119,14 +119,15 @@ nav ul.hide {
    width: 150px;
    height: 150px;
    padding: 10px;
-   /*! margin: 0 auto; */
+   margin-top: 225px;
    border: 1px solid black;
    box-shadow: 0 0 20px whitesmoke;
-   position: relative; 
+   position: absolute; 
    text-align: center;
    background-color: lightgoldenrodyellow;
    line-height: .2rem;
-   top: 200px;
+   margin: 240px 0px 0px 2%;
+   
    
    /*! right: 550px auto; */
 }
@@ -154,13 +155,15 @@ nav ul.hide {
 img{
    width: 100%;
    height: 300px;
-   align-items: center;
    margin: 0 auto;
    box-shadow: 0 0 10px grey;
+   margin-top: 150px;
 }
 
 
-
+.ContactInfo img{
+   margin-top: 0px;
+}
 
 .info a{
    color: lightblue;
