@@ -107,46 +107,28 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         grid-gap: 20px;
-        max-width: 1260px;
         width: 100%;
-        margin: 10px 50px auto;
+        margin: 30px 50px auto;
         
     }
     .cards section {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
         max-width: 250px;
         max-height: 600px;
         border-radius: 10px;
     }
-    .cards section:nth-child(even) img {
-        grid-column: 1;
-        grid-row: 1;
-        max-width: 350px;
-        border-radius: 10px 10px 0px 0px;
-    }
-    .cards section:nth-child(even) h2,h4,p {
-        grid-column: 1;
-        grid-row: 2;
-    }
-    .cards section:nth-child(odd) img {
-        grid-column: 1;
-        grid-row: 1;
-        border-radius: 10px 10px 0px 0px;
-    }
-    .cards section h2{
-        line-height: .1rem;
-        margin-top: -20px;
-    }
-    .cards section h4{
-        line-height: 1.2rem;
-        margin-top: 0px;
-    }
-    .cards section p{
+
+    .cards section img{
         display: flex;
-        flex-direction: column;
-        margin-top: 40px;
+        margin-top: 0px;
+        border-radius: 10px 10px 0px 0px;
     }
+    .cards section div{
+        display: block;
+        margin-bottom: 50px;
+    }
+    
+    
     
 }

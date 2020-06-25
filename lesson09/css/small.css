@@ -329,3 +329,8 @@ footer {
   font-family: Helvetica, sans-serif;
   font-size: 14px;
 }
+.wireframe {
+  text-align: center;
+  padding: 20px;
+}
+
