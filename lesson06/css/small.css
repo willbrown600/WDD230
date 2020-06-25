@@ -108,6 +108,10 @@ nav ul.hide {
    border-bottom: 1px solid black;
 }
 
+.forecast{
+   display: none;
+}
+
 .weather{
    display: grid;
    grid-template-columns: 1fr 1fr;
@@ -155,16 +159,8 @@ img{
    box-shadow: 0 0 10px grey;
 }
 
-.Forecast h2{
-   display: none;
-}
 
-.Forecast p{
 
-   display: none;
-   border: 1px solid black;
-   border-right: 1px solid black;
-}
 
 .info a{
    color: lightblue;
