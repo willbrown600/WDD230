@@ -110,7 +110,7 @@ nav ul.hide {
 .weather {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   width: 150px;
   height: 150px;
   padding: 10px;
@@ -125,25 +125,31 @@ nav ul.hide {
 
   /*! right: 550px auto; */
 }
+.forecast {
+  display: none;
+}
+
 .weather h4 {
-  grid-column: 1/2;
-  grid-row: 1;
-  line-height: 0.8rem;
-  height: 5px;
+  margin-top: -170px;
+  margin-left: 10px;
 }
 
 .details {
-  grid-row: 2;
+  grid-row: 1;
   grid-column: 1;
-  text-align: right;
-  padding: 3px;
+  text-align: left;
+  padding: 5px;
+  line-height: 0.3rem;
+  margin-top: 30px;
 }
 
 .results {
-  grid-row: 2;
+  grid-row: 1;
   grid-column: 2;
-  text-align: center;
-  padding: 3px;
+  text-align: left;
+  padding: 5px;
+  line-height: 0.3rem;
+  margin-top: 30px;
 }
 
 img {
@@ -297,35 +303,36 @@ footer {
   text-align: center;
 }
 /*-----------Homepage--------------*/
-.cards{
+.cards {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 10px;
   padding: 15px;
 }
-.cards section{
+.cards section {
   background-color: #b9b9ca;
   border: #9797b7 solid 2px;
   border-radius: 10px;
 }
-.cards img{
+.cards img {
   display: block;
   width: 250px;
   height: 200px;
   margin: 25px auto 25px auto;
   box-shadow: rgb(49, 49, 49) 0 0 15px;
 }
-.cards h2, h4{
+.cards h2,
+h4 {
   text-align: center;
   color: #4e4e91;
-  line-height: .95em;
+  line-height: 0.95em;
   font-family: Heebo, Serif, serif;
   font-weight: lighter;
   padding: 10px;
 }
-.cards p{
+.cards p {
   text-align: center;
-  line-height: .3em;
+  line-height: 0.3em;
   font-family: Helvetica, sans-serif;
   font-size: 14px;
 }
@@ -333,4 +340,3 @@ footer {
   text-align: center;
   padding: 20px;
 }
-

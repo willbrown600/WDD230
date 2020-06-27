@@ -132,8 +132,8 @@ nav ul.hide {
    /*! right: 550px auto; */
 }
 .weather h4{
-   grid-column: 1/2;
-   grid-row: 1;
+   display: flex;
+   justify-content: center;
    line-height: .8rem;
    height: 5px;
 }
