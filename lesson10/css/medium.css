@@ -58,13 +58,12 @@
   .forecast h2 {
     display: grid;
     grid-column: 1/8;
-    grid-row: 1;
-    padding: 10px;
+    text-align: center;
+    padding: 20px;
   }
 
   .forecast p {
     display: grid;
-    
     grid-row: 2;
     width: 100%;
     height: 150px;
@@ -76,7 +75,14 @@
     background-color: lightgrey;
     box-shadow: 0 0 3px white;
     max-width: 100px;
+    grid-template-rows: 1fr 1fr 1fr;
   }
+  /*.forecast img{
+      height: 70px;
+      border: none;
+      box-shadow: none;
+  }*/
+
   .ArticleInfo {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -149,7 +155,7 @@
     max-width: 400px;
     border: 1px solid #445ba9;
     border-radius: 10px;
-    padding: 0.5rem 3% auto;
+    padding: 0.5rem 3%;
   }
 
   /*---------Homepage---------*/
