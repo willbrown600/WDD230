@@ -43,6 +43,11 @@ header img {
   border: none;
 }
 
+.pageinfo h2{
+  padding: 20px;
+  height: 1rem;
+}
+
 nav button {
   margin: 0.2rem 2%;
   padding: 10px;

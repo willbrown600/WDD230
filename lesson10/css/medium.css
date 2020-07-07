@@ -28,8 +28,9 @@
     padding: 0.8rem;
   }
 
-  .pageinfo {
+  .pageinfo h2{
     height: 30px;
+    
   }
 
   .topics {
