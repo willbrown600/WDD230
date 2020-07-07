@@ -1,0 +1,142 @@
+@media only screen and (min-width: 60rem) {
+
+    nav{
+       /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cecece+0,444444+100 */
+        background: #cecece; /* Old browsers */
+        background: linear-gradient(to bottom, #cecece 0%,#444444 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+    
+    nav button{
+        display: none;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+    .weather{
+        margin-left: 2%;
+        float: left;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav ul li a {
+        border: none;
+        padding: .8rem 1rem;
+    }
+    
+    .Forecast{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        margin: 0 auto;
+        height: 250px;
+        text-align: center;
+    }
+    
+    .Forecast h2{
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 1;
+        padding: 10px;
+        
+    }
+
+.Forecast p{
+
+    display: grid;
+    grid-column: 1/5;
+    grid-row: 2;
+    width: 80px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+    font-size: 1.3rem;
+    background-color: lightgrey;
+    box-shadow: 0 0 3px white;
+    }
+    
+    
+    footer{
+        text-align: center;
+    }
+
+    .Gallery{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto;
+    }
+    .Gallery figure:hover{
+        box-shadow: 0px 0px 30px brown;
+    }
+
+    figcaption{
+        display: block;
+        text-align: center;
+        padding: 10px;
+        font-size: 1.4rem;
+    }
+
+    /*----------Storm Center Form-------------*/
+    form fieldset {
+        margin: 0 30rem auto;
+        max-width: 400px;
+        border: 1px solid #445ba9;
+        border-radius: 10px;
+        padding: 0.5rem 3%;
+    }
+
+    /*-------Homepage-----------*/
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 20px;
+        width: 100%;
+        margin: 30px 50px auto;
+        
+    }
+    .cards section {
+        display: flex;
+        flex-direction: column;
+        max-width: 250px;
+        max-height: 600px;
+        border-radius: 10px;
+    }
+
+    .cards section img{
+        display: flex;
+        margin-top: 0px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .cards section div{
+        display: block;
+        margin-bottom: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .cards section:nth-child(odd) img{
+        display: block;
+        block-size: 200px;
+        margin: 0px; 
+
+
+    }
+    .cards section:nth-child(even) img{
+        display: block;
+        margin: 0px;
+    }
+    
+    
+}

@@ -1,0 +1,334 @@
+.gr__willbrown600_github_io {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aa9a94+0,f4d4c3+100 */
+  background: #aa9a94; /* Old browsers */
+  background: linear-gradient(
+    to bottom,
+    #aa9a94 0%,
+    #f4d4c3 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+header {
+  display: flex;
+  padding: 5px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  position: relative;
+  font-size: 1.6rem;
+  margin: 0 0 0 17px;
+}
+
+h4#message {
+  font-style: italic;
+  letter-spacing: 1pt;
+  color: red;
+  margin: 0 0 0 17px;
+  font-size: 0.9rem;
+}
+
+header img {
+  width: 100px;
+  height: auto;
+  margin: 8px;
+  box-shadow: none;
+}
+
+.pageinfo {
+  font-family: "Playfair Display", serif;
+  background-color: transparent;
+  border: none;
+}
+
+nav button {
+  margin: 0.2rem 2%;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.4rem;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+
+nav {
+  background: #cecece; /* Old browsers */
+  background: linear-gradient(
+    to bottom,
+    #cecece 0%,
+    #444444 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: flex;
+  text-decoration: none;
+  color: whitesmoke;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  width: 100%;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+.pageinfo {
+  text-align: center;
+}
+
+.topics {
+  margin-top: -170px;
+  padding: 10px;
+  max-width: 960px;
+  text-align: center;
+}
+
+.topics h2 {
+  font-size: 1.2rem;
+  font-family: "Playfair Display", serif;
+  border-bottom: 1px solid black;
+}
+/*----------weather table-------------------*/
+
+.weather {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-template-rows: 1fr;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  box-shadow: 0 0 20px whitesmoke;
+  position: relative;
+  background-color: lightgoldenrodyellow;
+  top: 200px;
+}
+.forecast {
+  display: none;
+}
+
+.weather h4 {
+  margin-top: -160px;
+  margin-left: 0px;
+}
+
+.details {
+  grid-row: 1;
+  grid-column: 1;
+  text-align: left;
+  padding: 5px;
+  line-height: 0.3rem;
+  margin-top: 30px;
+}
+
+.results {
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 50px;
+  line-height: .2rem;
+  text-align: left;
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  align-items: center;
+  margin: 0 auto;
+  box-shadow: 0 0 10px grey;
+}
+
+.Forecast h2 {
+  display: none;
+}
+
+.Forecast p {
+  display: none;
+  border: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.info a {
+  color: lightblue;
+}
+footer {
+  padding: 5px 10px;
+  background: #cecece; /* Old browsers */
+  background: linear-gradient(
+    to bottom,
+    #cecece 0%,
+    #444444 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  font-size: 1em;
+  color: whitesmoke;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+}
+
+.Gallery img[data-src] {
+  max-width: 100%;
+  filter: blur(0.2em);
+}
+
+.Gallery img {
+  filter: blur(0em);
+  transition: filter 2s;
+}
+
+.Gallery img[data-src]:hover {
+  background-color: red;
+}
+
+.GalleryHeader {
+  text-align: center;
+  font-size: 4rem;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+figcaption {
+  display: none;
+}
+/*----------Storm Center Form-------------*/
+main h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+form fieldset {
+  margin: 0 auto;
+  border: 1px solid #445ba9;
+  border-radius: 10px;
+  padding: 0.5rem 3%;
+}
+
+form legend {
+  color: #445ba9;
+  margin: 2% 1rem;
+  padding: 0.5rem 2%;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: 0.8rem;
+}
+
+form label.top input,
+form label.top select {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: 0.74rem;
+  color: #555;
+  width: 96%;
+  max-width: 15rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem;
+  color: #555;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #9c2c13;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+form label.top input.info {
+  width: 80%;
+  height: 200px;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+  background-color: #ddd;
+  padding: 0.5rem 2%;
+  text-align: center;
+}
+/*-----------Homepage--------------*/
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 15px;
+}
+.cards section {
+  background-color: #b9b9ca;
+  border: #9797b7 solid 2px;
+  border-radius: 10px;
+}
+.cards img {
+  display: block;
+  width: 250px;
+  height: 200px;
+  margin: 25px auto 25px auto;
+  box-shadow: rgb(49, 49, 49) 0 0 15px;
+}
+.cards h2,
+h4 {
+  text-align: center;
+  color: #4e4e91;
+  line-height: 0.95em;
+  font-family: Heebo, Serif, serif;
+  font-weight: lighter;
+  padding: 10px;
+}
+.cards p {
+  text-align: center;
+  line-height: 0.3em;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
+.wireframe {
+  text-align: center;
+  padding: 20px;
+}
