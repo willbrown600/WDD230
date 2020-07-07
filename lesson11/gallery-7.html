@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Good Weather Website gallery</title>
+    <link rel="shortcut icon" href="/lesson07/images/favicon.ico">
+    <link href="/lesson07/css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="/lesson07/css/small.css" rel="stylesheet">     
+    <link href="/lesson07/css/medium.css" rel="stylesheet">
+    <link href="/lesson07/css/large.css" rel="stylesheet">
+    <script src="js/lesson07.js"></script>
+
+</head>
+<body onload="date()">
+	<header>
+        <picture>
+            <img src="/lesson07/images/weather_icon.png" alt="weather_icon">
+        </picture>
+        <section class="heading">
+            <h1>Good Weather</h1>
+                <h4 id="message">We only have the best weather for you</h4>
+        </section>
+    </header>
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a></li>
+                <li><a href="preston-7.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li class="active"><a href="./gallery-7.html">Gallery</a></li>   
+            </ul>
+        </nav>
+        <h1 class="GalleryHeader">
+            GALLERY
+        </h1>
+    <main class="Gallery">
+        
+        <figure>
+            <img
+              src="./images/placeholder.jpg"
+              data-src="./images/Fog.jpg"
+              alt="Fog.jpg"
+            />
+            <figcaption>A Foggy Day</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="./images/placeholder.jpg"
+              data-src="./images/Cloudy_Day.jpg"
+              alt="Cloudy_Day.jpg"
+            />
+            <figcaption>Who doesn't love a little bit of cloud.</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="./images/placeholder.jpg"
+              data-src="./images/Beautiful_Day.jpg"
+              alt="Beautiful_Day.jpg"
+            />
+            <figcaption>What a Beautiful Day.</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="./images/placeholder.jpg"
+              data-src="./images/Cold_Front.jpg"
+              alt="Cold_Front.jpg"
+            />
+            <figcaption>Here comes the Cold Front.</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="./images/placeholder.jpg"
+              data-src="./images/Rain.jpg"
+              alt="Rain.jpg"
+            />
+            <figcaption>How about some rain?</figcaption>
+          </figure>
+          <figure>
+            <img src="./images/placeholder.jpg" 
+              data-src="./images/Stormy.jpg" 
+              alt="Stormy.jpg" 
+              />
+            <figcaption>Were in for a Storm!</figcaption>
+          </figure>
+          <figure>
+            <img src="./images/placeholder.jpg" 
+              data-src="./images/High_Cloud_Cover.jpg" 
+              alt="High_Cloud_Cover.jpg" 
+              />
+              <figcaption>Some beautiful High Cloud Cover.</figcaption>
+          </figure>
+          <figure>
+            <img src="./images/placeholder.jpg" 
+              data-src="./images/Overcast.jpg" 
+              alt="Overcast.jpg" 
+              />
+              <figcaption>An Overcast Day.</figcaption>
+          </figure>
+          <figure>
+            <img src="./images/placeholder.jpg" 
+              data-src="./images/Possible_Hail.jpg" 
+              alt="Possible_Hail.jpg" 
+              />
+              <figcaption>Could be some hail on the way.</figcaption>
+          </figure>
+          <figure>
+            <img src="./images/placeholder.jpg" 
+              data-src="./images/Lightning.jpg" 
+              alt="Lightning.jpg" 
+              />
+              <figcaption>Lightning in Full force</figcaption>
+          </figure>
+    </main> 
+    <footer>
+        <div class="info">
+            <div> &copy; <span id="copy"></span> Will Brown | Brisbane, Australia | <a href="https://www.byui.edu/online">
+                BYUI Online Learning</a></div>
+            <br>
+            Today's date:<span id="modified"></span>
+          </div>
+      </div>  
+    </footer>
+    <script src="js/lesson07.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+          google: {
+            families: ['Bree Serif', 'M PLUS Rounded 1c']
+          }
+        });
+      </script>
+</body>
+</html>
