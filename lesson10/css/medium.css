@@ -28,9 +28,15 @@
     padding: 0.8rem;
   }
 
-  .pageinfo h2{
-    height: 30px;
-    
+  table{
+    width: 100%;
+    margin: 0px auto;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .emoji{
+    height: 50px;
   }
 
   .topics {
@@ -47,18 +53,14 @@
   }
 
   .forecast {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    width: 100%;
+    display: block;
+    width: 70%;
     margin: 0 auto;
-    height: 250px;
+    height: 150px;
     text-align: center;
   }
 
   .forecast h2 {
-    display: grid;
-    grid-column: 1/8;
     text-align: center;
     padding: 20px;
   }
@@ -90,18 +92,10 @@
     height: 500px;
     padding: 5px;
   }
-
-  .ArticleInfo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 500px;
-    padding: 5px;
-  }
-
   .ArticleInfo h2 {
     grid-column: 1;
-    line-height: 1.4rem;
-    margin-top: 50px;
+    height: 50px;
+    margin-top: 100px;
   }
 
   .ArticleInfo h4 {
@@ -123,21 +117,29 @@
     box-shadow: 0 0 5px grey;
   }
 
-  .ContactInfo {
-    display: grid;
-    margin-top: 30px;
-    grid-template-columns: 1fr 1fr;
-    height: 300px;
+  .pageinfo, h2{
+    height: 60px;
+    padding: 20px;
   }
+  .ContactInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    margin-top: 180px;
+
+  }
+
+
   .ContactInfo p,
   h2 {
     grid-column: 2;
     line-height: 0.7rem;
   }
   .ContactInfo img {
-    float: left;
+    grid-column: 1;
     position: relative;
     bottom: 270px;
+    width: 100%;
   }
 
   footer {
