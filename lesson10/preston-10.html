@@ -47,11 +47,11 @@
                     <p>WindSpeed: </p>       
                 </article>
                 <article class="results">
-                    <p1></p1>  
-                    <p2></p2>    
-                    <p3>&#176;</p3>    
-                    <p4></p4>    
-                    <p5></p5>    
+                    <p1></p1> 
+                    <p2></p2>&#176;F
+                    <p3></p3>&#176;F    
+                    <p4></p4>%    
+                    <p5></p5>mph    
                 </article>
             </div>
                 <picture class="preston_image">
@@ -59,28 +59,32 @@
                 </picture>
             <div class="forecast">
                 <h2>5 day Forecast</h2>
-                <p6>Mon
-                    <img src="" alt="">
-                    <p></p>
-                </p6>
-                <p6>Tue
-                    <img src="" alt="">
-                </p6>
-                <p6>Wed
-                    <img src="" alt="">
-                </p6>
-                <p6>Thu
-                    <img src="" alt="">
-                </p6>
-                <p6>Fri
-                    <img src="" alt="">
-                </p6>
-                <p6>Sat
-                    <img src="" alt="">
-                </p6>
-                <p6>Sun
-                    <img src="" alt="">
-                </p6>
+                <table>
+                    <tr>
+                        <th id="d1"></th>
+                        <th id="d2"></th>
+                        <th id="d3"></th>
+                        <th id="d4"></th>
+                        <th id="d5"></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span id="temp5"></span>&#8457;<span id="imagesrc5"></span> &nbsp; <img src="#" alt="#" id="icon5" class="emoji">
+                        </td>
+                        <td>
+                            <span id="temp6"></span>&#8457;<span id="imagesrc6"></span> &nbsp; <img src="#" alt="#" id="icon6" class="emoji">
+                        </td>
+                        <td>
+                            <span id="temp7"></span>&#8457;<span id="imagesrc7"></span> &nbsp; <img src="#" alt="#" id="icon7" class="emoji">
+                        </td>
+                        <td>
+                            <span id="temp8"></span>&#8457;<span id="imagesrc8"></span> &nbsp; <img src="#" alt="#" id="icon8" class="emoji">
+                        </td>
+                        <td>
+                            <span id="temp9"></span>&#8457;<span id="imagesrc9"></span> &nbsp; <img src="#" alt="#" id="icon9" class="emoji">
+                        </td>
+                    </tr>
+                </table>
             </div>
             <div class="ArticleInfo">
                 <h2>Self protection against the Coronavirus COVID-19</h2>
@@ -119,5 +123,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="./js/lesson10.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/weatherapi.js"></script>
 </body>
 </html>

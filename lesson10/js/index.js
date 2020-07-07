@@ -9,7 +9,7 @@ fetch(apiURL)
     const highTemp = document.querySelector('p2');
     const humidity = document.querySelector('p4');
     const windchill = document.querySelector('p3');
-    const windspeed = document.querySelector('p5')
+    const windspeed = document.querySelector('p5');
 
     const icon = document.querySelector('img');
 
