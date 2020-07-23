@@ -1,6 +1,7 @@
 @media only screen and (min-width: 60rem) {
 
     
+    
     nav button{
         display: none;
     }
@@ -26,7 +27,8 @@
         padding: .8rem 1rem;
     }
     
-   
+    
+    
     footer{
         text-align: center;
     }
@@ -48,13 +50,14 @@
         font-size: 1.4rem;
     }
 
-    /*----------Reservation Form-------------*/
+    /*----------Reservations Form-------------*/
     form fieldset {
         margin: 0 30rem auto;
-        max-width: 400px;
+        
         border: 1px solid #445ba9;
         border-radius: 10px;
         padding: 0.5rem 3%;
+        align-self: center;
     }
 
     /*-------Homepage-----------*/

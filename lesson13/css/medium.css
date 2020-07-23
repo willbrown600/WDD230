@@ -1,0 +1,140 @@
+@media only screen and (min-width: 32.5em) {
+  nav ul li.hide {
+    display: block;
+  }
+  nav button {
+    display: none;
+  }
+
+  nav ul {
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  nav ul li.active a {
+    width: 100%;
+  }
+
+  nav ul.hide {
+    display: flex;
+  }
+
+  nav ul li a {
+    border: none;
+    padding: 0.8rem;
+    
+  }
+
+  nav ul li a:hover {
+    background-color: rgba(37, 2, 2, 0.4);
+  }
+
+  table{
+    width: 100%;
+    margin: 0px auto;
+    justify-content: center;
+    align-self: center;
+  }
+
+  /*----------------Tours Page---------------------*/
+ 
+  /* .Info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    height: auto;
+    padding: 5px;
+
+  } */
+  .Article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    grid-gap: 10px;
+
+  }
+  
+
+  .Info img{
+
+    max-width: 400px;
+    height: auto;
+  }
+
+  
+
+
+  .ContactInfo1{
+    display: block;
+    height: 400px;
+    align-content: center;
+  }
+
+  .ContactInfo2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    
+  }
+
+  .ContactInfo2 p h2 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .ContactInfo2 img {
+    grid-column: 2;
+    grid-row: 2;
+  }
+ 
+
+
+
+  footer {
+    text-align: center;
+  }
+
+  .Gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0 auto;
+  }
+  /*----------Storm Center Form-------------*/
+  form fieldset {
+    margin: 0 10rem auto;
+    max-width: 400px;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: 0.5rem 3%;
+  }
+
+  /*---------Homepage---------*/
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards section div {
+    display: block;
+    line-height: 1.2rem;
+    margin-bottom: 20px;
+  }
+  .cards section:nth-child(odd) img {
+    float: left;
+    margin: 10px;
+  }
+  .cards section:nth-child(even) img {
+    float: right;
+    margin: 10px;
+  }
+  .cards section div {
+    padding: 5px;
+    line-height: 1rem;
+    margin-left: 30px;
+  }
+}

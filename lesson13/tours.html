@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Scoots Website</title>
+  <link rel="shortcut icon" href="/lesson06/images/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Playfair+Display&display=swap" rel="stylesheet" />
+  <link href="./css/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="./css/small.css" rel="stylesheet">
+  <link href="./css/medium.css" rel="stylesheet">
+  <link href="./css/large.css" rel="stylesheet">
+  <script src="js/lesson13.js"></script>
+</head>
+
+<body onload="date()">
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="primaryNav" class="hide">
+      <li class="navItem"><a href="home.html">Home</a></li>
+          <li class="navItem"><a href="rentals.html">Rentals</a></li>
+          <li class="navItem"><a href="reservations.html">Reservations</a></li>
+          <li class="active"><a href="tours.html">Tours</a></li>
+          <li class="navItem"><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <header>
+    <picture>
+      <img src="./images/scoots.png" alt="scoots_icon" />
+    </picture>
+    <section class="heading">
+      <h1>Scoots</h1>
+      <h4 id="message">Scoot with us!</h4>
+    </section>
+  </header>
+
+
+  <main>
+    <h2 class="pageinfo">Conzumel Tour Sights</h2>
+    <section class="Info">
+      <div class="Article">
+        <div>
+          <h2>Check out the Great Mayan Temple at Conzumel</h2>
+          <h4>By Will Brown</h4>
+          <p>
+            This great relic from the past is one of the last few remmants of the Mayan people. This is a wonderful
+            sight to visit and
+            behold. This is a must do while here in Conzumel. If you still around later a local performance will take
+            place with the great
+            temple the focal point or some simply wish to capture the setting sun.
+          </p>
+        </div>
+        <div>
+          <img src="./images/sight1.jpg" alt="article picture">
+        </div>
+      </div>
+
+      <div class="Article">
+        <div>
+        <h2>Lookout Point</h2>
+        <h4>By Will Brown</h4>
+        <p>
+          This lookout point has it all for our travellers. It features the Mayan pyramid in the background with the
+          ocean views.
+          Some have quoted this backdrop to be the best lookout point in the Americas. This has appeared in a number of
+          postcards
+          and has featured in a number of travel shows.
+        </p>
+      </div>
+        <div>
+        <img src="./images/sight2.jpg" alt="article picture">
+      </div>
+      </div>
+
+      <div class="Article">
+        <div>
+        <h2>Or just enjoy the Beaches and local wildlife</h2>
+        <h4>By Will Brown</h4>
+        <p>
+          Some just enjoy checking out our local beaches of which we have a few. Our beautiful beaches host a number of
+          exotic wildlife
+          local to the area. The Conzumel government take great pride in their beaches and ask all those present to look
+          after
+          them also for future generations to enjoy.
+        </p>
+      </div>
+        <div>
+        <img src="./images/sight3.jpg" alt="article picture">
+      </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    <div class="info">
+      <div> &copy; <span id="copy"></span> Will Brown | Brisbane, Australia | <a href="https://www.byui.edu/online">
+          BYUI Online Learning</a></div>
+      <br>
+      Today's date: <span id="modified"></span>
+    </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="/lesson06/js/webFontLoader.js"></script>
+</body>
+
+</html>

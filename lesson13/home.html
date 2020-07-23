@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Scoots Website</title>
+  <link rel="shortcut icon" href="/lesson06/images/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Playfair+Display&display=swap" rel="stylesheet" />
+  <link href="./css/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="./css/small.css" rel="stylesheet">
+  <link href="./css/medium.css" rel="stylesheet">
+  <link href="./css/large.css" rel="stylesheet">
+  <script src="js/lesson13.js"></script>
+</head>
+
+<body onload="date()">
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776; Menu</button>
+    <ul id="primaryNav" class="hide">
+      <li class="active"><a href="home.html">Home</a></li>
+      <li class="navItem"><a href="rentals.html">Rentals</a></li>
+      <li class="navItem"><a href="reservations.html">Reservations</a></li>
+      <li class="navItem"><a href="tours.html">Tours</a></li>
+      <li class="navItem"><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <header>
+    <picture>
+      <img src="./images/scoots.png" alt="scoots_icon" />
+    </picture>
+    <section class="heading">
+      <h1>Scoots</h1>
+      <h4 id="message">Scoot with us!</h4>
+    </section>
+  </header>
+
+
+  <main>
+    <article class="card1">
+      <h4>Scooters</h4>
+      <img src="./images/Honda_Metro.jpg" alt="Metro">
+      <p>
+        Scooters in different shapes and sizes to feel the wind through your hair as you buzz around the local township.
+      </p>
+    </article>
+    <article class="card2">
+      <h4>Pioneer ATV</h4>
+      <img src="./images/Pioneer_ATV.jpg" alt="ATV">
+      <p>We even have ATV's for the extra adventurer, to take off-road and onto the beaches.
+      </p>
+    </article>
+    <article class="card3">
+      <h4>Jeep Wrangler</h4>
+      <img src="./images/2011-jeep-wrangler-unlimited-4wd-4-door-rubicon-angular-front-exterior-view_100334039_l.jpg"
+        alt="Screenshot3">
+      <p>Jeep Wrangler for your comfortable driving needs.
+      </p>
+    </article>
+  </main>
+  <footer>
+    <div class="info">
+      <div> &copy; <span id="copy"></span> Will Brown | Brisbane, Australia | <a href="https://www.byui.edu/online">
+          BYUI Online Learning</a></div>
+      <br>
+      Today's date: <span id="modified"></span>
+    </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="/lesson06/js/webFontLoader.js"></script>
+</body>
+
+</html>

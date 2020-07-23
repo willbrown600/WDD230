@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Scoots Website</title>
+    <link rel="shortcut icon" href="/lesson06/images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="./css/small.css" rel="stylesheet">     
+    <link href="./css/medium.css" rel="stylesheet">
+    <link href="./css/large.css" rel="stylesheet">
+    <script src="./js/lesson10.js"></script>
+    <script src="js/lesson13.js"></script>
+  </head>
+  <body onload="date()">
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="primaryNav" class="hide">
+        <li class="navItem"><a href="home.html">Home</a></li>
+          <li class="navItem"><a href="rentals.html">Rentals</a></li>
+          <li class="active"><a href="reservations.html">Reservations</a></li>
+          <li class="navItem"><a href="tours.html">Tours</a></li>
+          <li class="navItem"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <header>
+      <picture>
+        <img src="./images/scoots.png" alt="scoots_icon" />
+      </picture>
+      <section class="heading">
+        <h1>Scoots</h1>
+        <h4 id="message">Scoot with us!</h4>
+      </section>
+    </header>
+    
+
+    <main>
+      <form method="get" action="thanks.html">
+      <h1>Rental Information</h1>
+        <fieldset>
+          <legend>Rental Information</legend>
+          <p>A $50 security deposit is required to confirm reservations.</p>
+          <p>A valid drivers license is required in hand at time of rental.</p>
+          <p>No one under 12 years of age are allowed to ride on the scooters.</p>
+          <p>Fuel charge not included.</p>
+          <p>Unlimited mileage.</p>
+          <p>Liability insurance is free of charge.</p>
+          <p>Reservations rate requires 24 hour prior notification.</p>
+          <p>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</p>
+          <p>Payment via Google Pay, cash, credit card, debit card, or PayPal.</p>
+          <p>Rentals may be returned to either location.</p>
+        </fieldset>
+      <h1>Reservation Form</h1>
+      <form method="get" action="thanks.html">
+        <fieldset>
+          <legend>Date Information</legend>
+          <label class="top"
+            >Start Date of Reservation<input type="date" name="Date" />
+          </label>
+          <div>Rental Period</div>
+          <label class="sbs">
+            <input type="radio" name="rlength" value="1/2_day" />1/2 day</label
+          >
+          <label class="sbs">
+            <input type="radio" name="rlength" value="1_day" />1 day</label
+          >
+          <label class="sbs">
+            <input type="radio" name="rlength" value="2_days" />2 days</label
+          >
+          <label class="sbs">
+            <input type="radio" name="rlength" value="3_days" />3 days</label
+          >
+          <label class="sbs">
+            <input type="radio" name="rlength" value="4_days" />4 days</label
+          >
+          <label class="sbs">
+            <input type="radio" name="rlength" value="5_days" />5 days</label
+          >
+          <label class="top"
+            >Rental Type
+            <select name="type">
+              <option value="">Please select</option>
+              <option value="Metro Scooter">Honda Metro Scooter</option>
+              <option value="Dio Scooter">Honda Dio Scooter</option>
+              <option value="PCX150">Honda PCX150 Scooter</option>
+              <option value="Pioneer ATV">Honda Pioneer ATV</option>
+              <option value="Jeep 4door">Jeep Wrangler - 4 door</option>
+              <option value="Jeep 2door">Jeep Wrangler - 2 door</option>
+            </select>
+          </label>
+        </fieldset>
+          <fieldset>
+            <legend>Applicant Information</legend>
+            <label class="top"
+              >Full Name*<input type="text" name="fullname" placeholder="Joe Bloggs"required
+            /></label>
+            <label class="top"
+              >Email*
+              <input
+                type="email"
+                name="email"
+                placeholder="someone@gmail.com"
+                required
+              />
+            </label>
+            <label class="top"
+              >Phone <input type="tel" name="phone" placeholder="012-345-6789" />
+            </label>
+            <label class="top"
+              >Zip Code <input type="number" name="zip_code" placeholder="1234" required />
+            </label>
+          </fieldset>
+
+        <fieldset>
+          <legend>Special Consideration</legend>
+
+          <label class="top"
+            >Location drop off request<input type="text" name="info"
+          /></label>
+        </fieldset>
+
+        <input type="submit" value="Place Reservation" class="submitBtn" />
+      </form>
+    </main>
+  </body>
+</html>
